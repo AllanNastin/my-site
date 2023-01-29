@@ -1,0 +1,61 @@
+.textCentre {
+    text-align: center;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+hr,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.the-problem li::first-letter {
+    font-size: 1.3em;
+    /* font-size-adjust: 50; */
+}
+
+.the-problem li {
+    list-style: none;
+}
+
+.link {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.default-link {
+    color: blue;
+    /* text-decoration: none; */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+/* .underscor{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+} */

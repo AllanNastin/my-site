@@ -1,0 +1,121 @@
+/* body{ */
+    /* background-color: whitesmoke; */
+/* } */
+/* @media print, screen{ */
+.cv-body{
+    min-height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.centre-div{
+    position: absolute;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, 0%);
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.margin-top-half{
+    margin-top: 1rem;
+}
+
+.margin-left {
+    margin-left: 2rem;
+}
+
+.margin-right{
+    margin-right: 2rem;
+}
+
+.margin-left-two {
+    margin-left: 3.5rem;
+}
+
+.margin-right-two{
+    margin-right: 3.5rem;
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-small{
+    margin-bottom: 0.5rem;
+}
+
+.text-background {
+    /* width: 100%; */
+    /* height: 50%; */
+    /* background-color: blue; */
+    background-color: #b1b8c7;
+}
+
+
+.heading-width {
+    /* --viewerwidth: calc(100vw-4rem)vw; */
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
+    /* width: auto; */
+    /* make the width equals to the viewer width minus margin */
+
+}
+.auto-width {
+    width: auto;
+}
+
+.de-pad{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.padding-left-heading {
+    padding-left: 1rem;
+}
+.padding-left-paragraph{
+    padding-left: 1.5rem;
+}
+
+.padding-top-bottom {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* .padding-bottom{
+    
+} */
+
+/* change list element marker */
+.custom-marker::marker{
+    content: "> ";
+    /* margin: 0; */
+}
+
+.custom-marker-triple::marker{
+    content: ">>> ";
+}
+
+.custom-marker-double::marker{
+    content: ">> ";
+}
+.parent-div > * * {
+    margin-bottom: 0.5rem;
+}
+
+li {
+    list-style-position: inside;
+}
+
+/* * {
+    position: fixed;
+    color: orange;
+    text-decoration: underline;
+    height: 69%;
+    font-size: 2.435rem;
+    overflow: scroll;
+} */
+
+/* } */
