@@ -5,5 +5,5 @@ export const Home = () => {
     <div>
       <h1 className="text-centre">Home</h1>
     </div>
-  );
+  )
 }
