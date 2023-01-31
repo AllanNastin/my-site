@@ -11,40 +11,40 @@ export const CV = () => {
           Allan Manuel Nastin
         </h1>
         <div className="parent-div margin-left margin-right margin-bottom-small grid-left-main-right text-left">
-          <div className="grid-first">
-            <li className="custom-marker">Occupation:</li>
+          <div className="grid-left grid-first">
+            <li className="custom-marker">Skills:</li>
           </div>
           <div className="grid-left grid-second">
             <li className="custom-marker">Education:</li>
           </div>
           <div className="grid-left grid-third">
-            <li className="custom-marker">Skills:</li>
-          </div>
-          <div className="grid-left grid-fourth">
             <li className="custom-marker">Activities:</li>
+          </div>
+          <div className="grid-fourth">
+            <li className="custom-marker">Occupation:</li>
           </div>
           <div className="grid-fifth">
             <li className="custom-marker">Interests:</li>
           </div>
           <div className="grid-right grid-first">
             <p>
-              Russian Interperter at{" "}
-              <a href="https://www.translation.ie" className="default-link">
-                Translation.ie
-              </a>
+              Java, Python, React JS, HTML, CSS, Arm Assembly, Processing, C,
+              Scratch, Russian
             </p>
           </div>
           <div className="grid-right grid-second">
             <p>2nd year Computer Science Student in Trinity College Dublin</p>
           </div>
           <div className="grid-right grid-third">
-            <p>
-              Java, Python, React JS, HTML, CSS, Arm Assembly, Processing, C,
-              Scratch, Russian
-            </p>
+            <p>Website Development, Audio, Visuals, Youth Leading</p>
           </div>
           <div className="grid-right grid-fourth">
-            <p>Website Development, Audio, Visuals, Youth Leading</p>
+            <p>
+              Russian Interperter at{" "}
+              <a href="https://www.translation.ie" className="default-link">
+                Translation.ie
+              </a>
+            </p>
           </div>
           <div className="grid-right grid-fifth">
             <p>Coding, IT</p>
