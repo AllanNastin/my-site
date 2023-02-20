@@ -5,12 +5,12 @@ import "./Grid.css";
 
 export const CV = () => {
   return (
-    <div className="text-centre cv-body margin-bottom">
+    <div className="text-centre margin-bottom">
       <overview>
         <h1 className="text-background padding-top-bottom margin-bottom-small">
           Allan Manuel Nastin
         </h1>
-        <div className="parent-div margin-left margin-right margin-bottom-small grid-left-main-right text-left">
+        <div className="parent-div margin-left margin-right grid-left-main-right text-left">
           <div className="grid-left grid-first">
             <li className="custom-marker">Skills:</li>
           </div>
@@ -29,7 +29,7 @@ export const CV = () => {
           <div className="grid-right grid-first">
             <p>
               Java, Python, React JS, HTML, CSS, Arm Assembly, Processing, C,
-              Scratch, Russian
+              C++, Scratch, Russian
             </p>
           </div>
           <div className="grid-right grid-second">
@@ -70,15 +70,14 @@ export const CV = () => {
             When I am not stuyding I interpret Russian at Translation.ie all
             over Ireland. I often work with people who have just moved to
             Ireland, have a language barrier and need assistance in getting
-            started.
+            started
           </p>
         </div>
       </summary>
-      <br />
-
+      {/* <br /> */}
       <experience>
         <tcdit>
-          <div className="text-background margin-left margin-right auto-width margin-bottom-small">
+          <div className="text-background margin-left margin-right auto-width">
             <h4 className="">
               <li className="custom-marker-double text-left">Experience</li>
             </h4>
@@ -107,7 +106,7 @@ export const CV = () => {
               <li className="text-left custom-marker">
                 Duties included: Understanding and resolving IT issues,
                 providing IT support to students. Working with the IT team to
-                improve the IT services provided to students.
+                improve the IT services provided to students
               </li>
               <li className="text-left custom-marker">
                 Skills used: Communication • Problem Solving • Organisation •
@@ -120,7 +119,7 @@ export const CV = () => {
         </tcdit>
 
         <translation>
-          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
             <div className="grid-left">
               <p className="text-left">05/22 - Now</p>
             </div>
@@ -140,7 +139,7 @@ export const CV = () => {
             <div className="grid-right">
               <li className="text-left custom-marker">
                 Duties include: Interpretation between Russian and English,
-                Being sure that the client understands the information.
+                Being sure that the client understands the information
               </li>
               <li className="text-left custom-marker">
                 Clients include: Addiction Services, Courts, Department Of
@@ -156,7 +155,7 @@ export const CV = () => {
         </translation>
 
         <ccs>
-          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
             <div className="grid-left">
               <p className="text-left">02/19 - 08/22</p>
             </div>
@@ -178,7 +177,7 @@ export const CV = () => {
                 Duties included: Supervising, Time sheet submission, Deligating
                 daily tasks, Sweeping floors, Washing floors with machines,
                 Sanitising surfaces, Cleaning cash registers, Toilets, canteens,
-                Sanitising post Covid case suspicion.
+                Sanitising post Covid case suspicion
               </li>
               <li className="text-left custom-marker">
                 Skills: Team Management • Time Management • Cleaning Validation
@@ -189,12 +188,12 @@ export const CV = () => {
           </div>
         </ccs>
 
-        <br />
+        {/* <br /> */}
       </experience>
 
       <education>
         <cs>
-          <div className="text-background margin-left margin-right auto-width margin-bottom-small">
+          <div className="text-background margin-left margin-right auto-width margin-top-quarter">
             <h4 className="">
               <li className="custom-marker-double text-left">Education</li>
             </h4>
@@ -235,7 +234,7 @@ export const CV = () => {
         </cs>
 
         <lc>
-          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
             <div className="grid-left">
               <p className="text-left">2015 - 2021</p>
             </div>
@@ -268,7 +267,7 @@ export const CV = () => {
         </lc>
 
         <riam>
-          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
             <div className="grid-left">
               <p className="text-left">2014 - 2017</p>
             </div>
@@ -295,17 +294,16 @@ export const CV = () => {
                 Summary: I have been playing piano from the age of 4. These
                 certifications required daily practice and weekly lessons. I
                 have also participated in a number of concerts and competitions
-                in school.
+                in school
               </li>
             </div>
           </div>
         </riam>
 
-        <br />
       </education>
 
       <activities>
-        <div className="text-background margin-left margin-right auto-width margin-bottom-small">
+        <div className="text-background margin-left margin-right auto-width margin-top-quarter">
           <h4 className="">
             <li className="custom-marker-triple text-left">
               Activities and Projects
@@ -313,131 +311,179 @@ export const CV = () => {
           </h4>
         </div>
 
-        <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two">
-          <div className="grid-left">
-            <p className="text-left">2022 - Now</p>
+        <fix>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two">
+            <div className="grid-left">
+              <p className="text-left">2023</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">
+                Simulated Trading Exchange using FIX Protocol
+              </p>
+            </div>
+            <div className="grid-right">
+              <p className="text-right fade">
+                <a
+                  href="https://github.com/j-wilsons/sweng-project-23-2023"
+                  className="default-link"
+                >
+                  Github Repository
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="grid-middle">
-            <p className="text-left bold">Web Development</p>
+          <hr className="margin-left-two margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">
+                Client Backend: I worked with the early client backend in C++
+              </li>
+              <li className="text-left custom-marker">
+                Front-end: I worked on the front-end in React JS linking the C++
+                from the backend to the front-end
+              </li>
+            </div>
           </div>
-        </div>
-        <hr className="margin-left-two margin-right-two" />
-        <div className="grid-left-main-right margin-right-two margin-left-two">
-          <div className="grid-right">
-            <li className="text-left custom-marker">FrameWork: React JS</li>
-            <li className="text-left custom-marker">
-              Project: Couple personal projects that are currently in
-              development and too small to be listed here.
-            </li>
-          </div>
-        </div>
+        </fix>
 
-        <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
-          <div className="grid-left">
-            <p className="text-left">2022</p>
+        <webdev>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two">
+            <div className="grid-left">
+              <p className="text-left">2022 - Now</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">Web Development</p>
+            </div>
           </div>
-          <div className="grid-middle">
-            <p className="text-left bold">CoderDojo Mentor</p>
+          <hr className="margin-left-two margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">FrameWork: React JS</li>
+              <li className="text-left custom-marker">
+                Project: Couple personal projects that are currently in
+                development and too small to be listed here
+              </li>
+            </div>
           </div>
-          <div className="grid-right">
-            <p className="text-right fade">Trinity CoderDojo</p>
-          </div>
-        </div>
-        <hr className="margin-left-two margin-right-two" />
-        <div className="grid-left-main-right margin-right-two margin-left-two">
-          <div className="grid-right">
-            <li className="text-left custom-marker">
-              Mentoring students in their journey with Scratch in the Trinity
-              CoderDojo
-            </li>
-            <li className="text-left custom-marker">
-              Activities: Guiding students to bringing their creative ideas to
-              life with Scratch code
-            </li>
-          </div>
-        </div>
+        </webdev>
 
-        <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
-          <div className="grid-left">
-            <p className="text-left">2019 - Now</p>
+        <coderdojo>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
+            <div className="grid-left">
+              <p className="text-left">2022</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">CoderDojo Mentor</p>
+            </div>
+            <div className="grid-right">
+              <p className="text-right fade">Trinity CoderDojo</p>
+            </div>
           </div>
-          <div className="grid-middle">
-            <p className="text-left bold">Youth Leader</p>
+          <hr className="margin-left-two margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">
+                Mentoring students in their journey with Scratch in the Trinity
+                CoderDojo
+              </li>
+              <li className="text-left custom-marker">
+                Activities: Guiding students to bringing their creative ideas to
+                life with Scratch code
+              </li>
+            </div>
           </div>
-          <div className="grid-right">
-            <p className="text-right fade">
-              <a
-                href="https://www.grace.ie/courses/#:~:text=1.,background."
-                className="default-link"
-              >
-                Grace Bible Fellowship
-              </a>
-            </p>
+        </coderdojo>
+
+        <youthleader>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
+            <div className="grid-left">
+              <p className="text-left">2019 - Now</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">Youth Leader</p>
+            </div>
+            <div className="grid-right">
+              <p className="text-right fade">
+                <a
+                  href="https://www.grace.ie/courses/#:~:text=1.,background."
+                  className="default-link"
+                >
+                  Grace Bible Fellowship
+                </a>
+              </p>
+            </div>
           </div>
-        </div>
-        <hr className="margin-left-two  margin-right-two" />
-        <div className="grid-left-main-right margin-right-two margin-left-two">
-          <div className="grid-right">
-            <li className="text-left custom-marker">
-              Youth leader for local Youth Club.
-            </li>
-            <li className="text-left custom-marker">
-              Activities: Leading games, activities and group discussions,
-              Organising Events, Working with other youth leaders to make the
-              club a fun and safe place for the youth.
-            </li>
+          <hr className="margin-left-two  margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">
+                Youth leader for local Youth Club
+              </li>
+              <li className="text-left custom-marker">
+                Activities: Leading games, activities and group discussions,
+                Organising Events, Working with other youth leaders to make the
+                club a fun and safe place for the youth
+              </li>
+            </div>
           </div>
-        </div>
-        <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
-          <div className="grid-left">
-            <p className="text-left">2016 - Now</p>
+        </youthleader>
+
+        <av>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
+            <div className="grid-left">
+              <p className="text-left">2016 - Now</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">Audio & Visual Technician</p>
+            </div>
+            <div className="grid-right">
+              <p className="text-right fade">
+                <a href="https://www.grace.ie/" className="default-link">
+                  Grace Bible Fellowship
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="grid-middle">
-            <p className="text-left bold">Audio & Visual Technician</p>
+          <hr className="margin-left-two  margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">
+                Audio & Visual Technician for local church and Youth Club on a
+                weekly basis
+              </li>
+              <li className="text-left custom-marker">
+                Audio: Mixing, Recording, Microphone placement, Audio routing,
+                EQ
+              </li>
+              <li className="text-left custom-marker">
+                Visuals: Displaying content on a tv screen, Video Recording,
+                Video Editing
+              </li>
+            </div>
           </div>
-          <div className="grid-right">
-            <p className="text-right fade">
-              <a href="https://www.grace.ie/" className="default-link">
-                Grace Bible Fellowship
-              </a>
-            </p>
+        </av>
+
+        <youtube>
+          <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-quarter">
+            <div className="grid-left">
+              <p className="text-left">2016 - 2021</p>
+            </div>
+            <div className="grid-middle">
+              <p className="text-left bold">YouTube Content Creator</p>
+            </div>
+            <div className="grid-right">
+              <p className="text-right fade">YouTube</p>
+            </div>
           </div>
-        </div>
-        <hr className="margin-left-two  margin-right-two" />
-        <div className="grid-left-main-right margin-right-two margin-left-two">
-          <div className="grid-right">
-            <li className="text-left custom-marker">
-              Audio & Visual Technician for local church and Youth Club on a
-              weekly basis.
-            </li>
-            <li className="text-left custom-marker">
-              Audio: Mixing, Recording, Microphone placement, Audio routing, EQ
-            </li>
-            <li className="text-left custom-marker">
-              Visuals: Displaying content on a tv screen, Video Recording, Video
-              Editing
-            </li>
+          <hr className="margin-left-two  margin-right-two" />
+          <div className="grid-left-main-right margin-right-two margin-left-two">
+            <div className="grid-right">
+              <li className="text-left custom-marker">
+                Skills Learnt: Video Production, Video Editing, Script Writing
+              </li>
+            </div>
           </div>
-        </div>
-        <div className="grid-left-minor-middle-right-minor margin-left-two margin-right-two margin-top-half">
-          <div className="grid-left">
-            <p className="text-left">2016 - 2021</p>
-          </div>
-          <div className="grid-middle">
-            <p className="text-left bold">YouTube Content Creator</p>
-          </div>
-          <div className="grid-right">
-            <p className="text-right fade">YouTube</p>
-          </div>
-        </div>
-        <hr className="margin-left-two  margin-right-two" />
-        <div className="grid-left-main-right margin-right-two margin-left-two">
-          <div className="grid-right">
-            <li className="text-left custom-marker">
-              Skills Learnt: Video Production, Video Editing, Script Writing
-            </li>
-          </div>
-        </div>
+        </youtube>
       </activities>
     </div>
   );

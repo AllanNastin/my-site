@@ -2,7 +2,7 @@
     /* background-color: whitesmoke; */
 /* } */
 /* @media print, screen{ */
-.cv-body{
+body{
     min-height: 100%;
     width: 100%;
     background-color: whitesmoke;
@@ -21,6 +21,10 @@
 
 .margin-top-half{
     margin-top: 1rem;
+}
+
+.margin-top-quarter{
+    margin-top: 0.5rem;
 }
 
 .margin-left {
@@ -55,14 +59,14 @@
 }
 
 
-.heading-width {
+ /* .heading-width { */
     /* --viewerwidth: calc(100vw-4rem)vw; */
     /* margin-left: 2rem; */
     /* margin-right: 2rem; */
     /* width: auto; */
     /* make the width equals to the viewer width minus margin */
 
-}
+/* } */
 .auto-width {
     width: auto;
 }
